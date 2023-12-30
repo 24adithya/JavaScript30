@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "wesbos"
+    ],
+    "rules": {
+        // ... any eslint rules here
+        "prettier/prettier": [
+            "error",
+            {
+                "singleQuote": true,
+                "endOfLine": "auto",
+                "tabWidth": 8
+            }
+        ]
+    }
+}
