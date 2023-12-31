@@ -13,7 +13,7 @@ The node version we will be using for this configuration is _20.10.0_
 npm init -y
 ```
 
-### Step 2: Install __ESLint__ and __Prettier__
+### Step 2: Install __ESLint__
 
 `npx eslint --init`
 
@@ -58,7 +58,7 @@ You will be asked a variety of questions as follows:
 }
 ```
 
-### Step 4: Install Prettier
+### Step 4: Install __Prettier__
 
 Install Prettier module as follows:
 
@@ -71,7 +71,12 @@ npx install-peerdeps eslint-config-prettier --dev
 npx install-peerdeps eslint-plugin-prettier --dev
 ```
 
-### Step 6: Update `.eslintrc.json` with Prettier rules
+### Step 6: Install ESLint extension for VS Code
+<!-- ![ESLint extension](ESLint_extension.jpg) -->
+<img src="ESLint_extension.jpg" alt="ESLint extension" width="500" height="200">
+
+
+### Step 7: Update `.eslintrc.json` with Prettier rules
 
 ```json
 {
@@ -102,7 +107,7 @@ npx install-peerdeps eslint-plugin-prettier --dev
 }
 ```
 
-### Step 5: VS Code Settings
+### Step 8: VS Code Settings
 
 Update your VS Code settings _settings.json_ to enable ESLint and Prettier integration.
 
@@ -124,7 +129,7 @@ Update your VS Code settings _settings.json_ to enable ESLint and Prettier integ
 
 ### Restart VS Code for the changes to take place
 
-### Step 6: Create NPM Scripts
+### Step 9: Create NPM Scripts
 
 In your `package.json` file, add NPM scripts for linting and fixing:
 
@@ -135,13 +140,13 @@ In your `package.json` file, add NPM scripts for linting and fixing:
 }
 ```
 
-### Step 7: Run ESLint
+### Step 10: Run ESLint
 
 ```bash
 npm run lint
 ```
 
-### Step 8: Auto-Fix ESLint Issues
+### Step 11: Auto-Fix ESLint Issues
 
 ```bash
 npm run lint:fix
@@ -155,13 +160,13 @@ npx eslint . --fix
 
 These steps will configure ESLint with Prettier in your project, ensuring consistent code formatting and style enforcement. Customize the configurations based on your project's specific needs.
 
-### Step 9: ESLint settings for HTML files
+### Step 12: ESLint settings for HTML files
 
 Install `html-eslint` plugin
 
 `npm install --save-dev eslint @html-eslint/parser @html-eslint/eslint-plugin`
 
-### Step 10: Update `.eslintrc.json` file
+### Step 13: Update `.eslintrc.json` file
 
 ```json
 {
@@ -184,7 +189,7 @@ Install `html-eslint` plugin
 }
 ```
 
-### Step 11: Update VS Code settings.json
+### Step 14: Update VS Code settings.json
 
 Add the following:
 
