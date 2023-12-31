@@ -73,7 +73,7 @@ npx install-peerdeps eslint-plugin-prettier --dev
 
 ### Step 6: Install ESLint extension for VS Code
 <!-- ![ESLint extension](ESLint_extension.jpg) -->
-<img src="ESLint_extension.jpg" alt="ESLint extension" width="500" height="200">
+<img src="https://raw.githubusercontent.com/24adithya/JavaScript30/master/ESLint_extension.JPG" alt="ESLint extension" width="500" height="200">
 
 
 ### Step 7: Update `.eslintrc.json` with Prettier rules
