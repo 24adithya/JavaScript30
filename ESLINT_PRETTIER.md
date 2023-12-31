@@ -256,7 +256,7 @@ Add the following:
 
 ### References and Credits
 
-[HTML ESLint parser](https://html-eslint.org/docs/getting-started)  
-[ESLint](https://eslint.org/)  
-[Prettier](https://prettier.io/)  
-[WEBSOS ESLint Config](https://github.com/wesbos/eslint-config-wesbos)  
+[HTML ESLint parser](https://html-eslint.org/docs/getting-started)
+[ESLint](https://eslint.org/)
+[Prettier](https://prettier.io/)
+[WEBSOS ESLint Config](https://github.com/wesbos/eslint-config-wesbos)
